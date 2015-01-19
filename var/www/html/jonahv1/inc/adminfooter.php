@@ -1,0 +1,2 @@
+<div class="disclaimer"><br /><a href="/jonahv1/monitor.php">Ingest Monitor</a> | <a href="/jonahv1/admin/queue-editor.php">Transcode Queue</a> | <a href="/jonahv1/admin/admin.php">Admin</a> | <a href="/jonahv1/admin/profiles.php">Profile Editor</a> | <a href="/sysinfo/">SysInfo</a>
+<br />Jonah&trade; VOD Ingest Engine v1.0 (build12.0212) - Del</div>

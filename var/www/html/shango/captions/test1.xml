@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" 
+	xml:lang="fr" 
+	xmlns:ttm="http://www.w3.org/ns/ttml#metadata" 
+	xmlns:ttp="http://www.w3.org/ns/ttml#parameter" 
+	xmlns:tts="http://www.w3.org/ns/ttml#styling">
+  <head>
+    <metadata>
+      <ttm:title>Fichier test sous-titres TTML</ttm:title>
+    </metadata>
+    <styling>
+		<style 
+			tts:displayAlign="center" 
+			tts:textAlign="center" 
+			tts:backgroundColor="transparent" 
+			tts:origin="0% 90%" 
+			tts:extent="100% 8%" 
+			tts:fontSize="30px" 
+			tts:color="white" 
+			tts:textOutline="black 1px 0px" 
+			tts:fontFamily="proportionalSansSerif" 
+			xml:id="captionStyle"
+		/>
+    </styling>
+    <layout>
+      <region style="captionStyle" region="region2"/>
+    </layout>
+  </head>
+  <body>
+    <div region="region2">
+      <p xml:id="caption1" ttm:role="caption" begin="00:00:00:03" end="00:00:01:03"><span tts:textAlign="center" tts:color="red">sous titre rouge</span></p>
+      <p xml:id="caption2" ttm:role="caption" begin="00:00:01:05" end="00:00:03:04"><span tts:textAlign="center" tts:color="blue">sous titre bleu à droite</span></p>
+	  <p xml:id="caption3" ttm:role="caption" begin="00:00:03:06" end="00:00:05:04"><span tts:textAlign="center" tts:color="yellow">sous titre à gauche jaune</span><br /><span tts:textAlign="center" tts:color="green">sur deux lignes vert</span></p>
+	  <p xml:id="caption4" ttm:role="caption" begin="00:00:05:06" end="00:00:07:11"><span tts:textAlign="center" tts:color="white">dans celle qui paie.</span><br /><span tts:textAlign="center" tts:color="white">Qui je suis ?</span></p>
+	  <p xml:id="caption5" ttm:role="caption" begin="00:00:07:13" end="00:00:08:14"><span tts:textAlign="center" tts:color="white">Je suis Rick Castle.</span></p>
+	  <p xml:id="caption6" ttm:role="caption" begin="00:00:08:16" end="00:00:09:16"><span tts:textAlign="center" tts:color="white">Castle. Castle.</span></p>
+	  <p xml:id="caption7" ttm:role="caption" begin="00:00:09:18" end="00:00:11:22"><span tts:textAlign="center" tts:color="white">Je ne sais pas ce que vous en pensez,</span><br /><span tts:textAlign="center" tts:color="white">mais je me trouve beau gosse.</span></p>
+	  <p xml:id="caption8" ttm:role="caption" begin="00:00:11:24" end="00:00:14:04"><span tts:textAlign="center" tts:color="white">Chaque écrivain a besoin d'inspiration.</span><br /><span tts:textAlign="center" tts:color="white">J'ai trouvé la mienne.</span></p>
+	  <p xml:id="caption9" ttm:role="caption" begin="00:00:14:06" end="00:00:15:06"><span tts:textAlign="center" tts:color="white">Lieutenant Kate Beckett.</span></p>
+	  <p xml:id="caption10" ttm:role="caption" begin="00:00:15:08" end="00:00:16:08"><span tts:textAlign="center" tts:color="white">Beckett. Beckett.</span></p>
+	  <p xml:id="caption11" ttm:role="caption" begin="00:00:16:10" end="00:00:18:02"><span tts:textAlign="center" tts:color="white"> - Nikki Hard?</span><br /><span tts:textAlign="center" tts:color="white">- Son personnage fondé sur vous.</span></p>
+	  <p xml:id="caption12" ttm:role="caption" begin="00:00:18:04" end="00:00:19:22"><span tts:textAlign="center" tts:color="white">Et grâce à mon amitié avec le maire,</span></p>
+	  <p xml:id="caption13" ttm:role="caption" begin="00:00:19:24" end="00:00:20:28"><span tts:textAlign="center" tts:color="white">je suis sur ses enquêtes.</span></p>
+      <p xml:id="caption14" ttm:role="caption" begin="00:00:21:00" end="00:00:22:19"><span tts:textAlign="center" tts:color="white">Donnez-moi la fessée pour me punir.</span></p>
+      <p xml:id="caption15" ttm:role="caption" begin="00:00:22:21" end="00:00:24:24"><span tts:textAlign="center" tts:color="white">Ensemble, on arrête les tueurs.</span></p>
+      <p xml:id="caption16" ttm:role="caption" begin="00:00:24:26" end="00:00:26:03"><span tts:textAlign="center" tts:color="white">On forme une bonne équipe nous deux,</span></p>
+      <p xml:id="caption17" ttm:role="caption" begin="00:00:26:05" end="00:00:27:28"><span tts:textAlign="center" tts:color="white">comme Starsky et Hutch.</span><br /><span tts:textAlign="center" tts:color="white">         Turner et Hooch.</span></p>
+      <p xml:id="caption18" ttm:role="caption" begin="00:00:28:00" end="00:00:29:25"><span tts:textAlign="center" tts:color="white">Vous me rappelez assez Hooch.</span></p>
+      <p xml:id="caption19" ttm:role="caption" begin="00:01:07:07" end="00:01:09:10"><span tts:textAlign="center" tts:color="white">"Elle émit un cri déchirant,</span></p>
+      <p xml:id="caption20" ttm:role="caption" begin="00:01:09:12" end="00:01:12:12"><span tts:textAlign="center" tts:color="white">qui ne retomba que</span><br /><span tts:textAlign="center" tts:color="white">dans les oreilles sourdes d'un mort."</span></p>
+      <p xml:id="caption21" ttm:role="caption" begin="00:01:13:16" end="00:01:15:29"><span tts:textAlign="center" tts:color="white">- Vraiment ?</span><br /><span tts:textAlign="center" tts:color="white">      - J'en ai trop fait ?</span></p>
+      <p xml:id="caption22" ttm:role="caption" begin="00:01:16:01" end="00:01:17:17"><span tts:textAlign="center" tts:color="white"> Tu écris depuis trop longtemps</span></p>
+      <p xml:id="caption23" ttm:role="caption" begin="00:01:17:19" end="00:01:21:04"><span tts:textAlign="center" tts:color="white">pour ignorer</span><br /><span tts:textAlign="center" tts:color="white"> qu'il y a deux "M" à émettre.</span></p>
+      <p xml:id="caption24" ttm:role="caption" begin="00:01:21:06" end="00:01:22:26"><span tts:textAlign="center" tts:color="white">- Et les correcteurs d'orthographe ?</span><br /><span tts:textAlign="center" tts:color="white">             - Oui.</span></p>
+      <p xml:id="caption25" ttm:role="caption" begin="00:01:22:28" end="00:01:25:08"><span tts:textAlign="center" tts:color="white">Elle est rousse,</span><br /><span tts:textAlign="center" tts:color="white">   très mûre pour son âge,</span></p>
+      <p xml:id="caption26" ttm:role="caption" begin="00:01:25:10" end="00:01:26:29"><span tts:textAlign="center" tts:color="white">et va dire à son père</span><br /><span tts:textAlign="center" tts:color="white">         ce qu'elle pense</span></p>
+      <p xml:id="caption27" ttm:role="caption" begin="00:01:27:01" end="00:01:28:17"><span tts:textAlign="center" tts:color="white">du nouveau chapitre de son livre.</span></p>
+      <p xml:id="caption28" ttm:role="caption" begin="00:01:28:19" end="00:01:30:05"><span tts:textAlign="center" tts:color="white">J'ai adoré, surtout le passage</span></p>
+      <p xml:id="caption29" ttm:role="caption" begin="00:01:30:07" end="00:01:32:21"><span tts:textAlign="center" tts:color="white">où Nikki et Rook</span><br /><span tts:textAlign="center" tts:color="white">    sont dans le porte-avion.</span></p>
+      <p xml:id="caption30" ttm:role="caption" begin="00:01:32:23" end="00:01:35:11"><span tts:textAlign="center" tts:color="white">- C'est génial.</span><br /><span tts:textAlign="center" tts:color="white">     - Arrête. Tu me gênes.</span></p>
+      <p xml:id="caption31" ttm:role="caption" begin="00:01:35:13" end="00:01:36:22"><span tts:textAlign="center" tts:color="white">Mais j'ai un commentaire.</span></p>
+      <p xml:id="caption32" ttm:role="caption" begin="00:01:36:24" end="00:01:39:28"><span tts:textAlign="center" tts:color="white">Ce nouveau personnage,</span><br /><span tts:textAlign="center" tts:color="white"> le spécialiste en banditisme ?</span></p>
+      <p xml:id="caption33" ttm:role="caption" begin="00:01:40:00" end="00:01:41:07"><span tts:textAlign="center" tts:color="white">Schlemming. Que fait-il là ?</span></p>
+      <p xml:id="caption34" ttm:role="caption" begin="00:01:41:09" end="00:01:44:05"><span tts:textAlign="center" tts:color="white">On dirait qu'il sort de nulle part.</span></p>
+      <p xml:id="caption35" ttm:role="caption" begin="00:01:44:07" end="00:01:45:26"><span tts:textAlign="center" tts:color="white">Oui, je vois ce que tu veux dire.</span></p>
+      <p xml:id="caption36" ttm:role="caption" begin="00:01:45:28" end="00:01:48:26"><span tts:textAlign="center" tts:color="white">- Il a l'air d'un crétin.</span><br /><span tts:textAlign="center" tts:color="white">           - Tu crois ?</span></p>
+      <p xml:id="caption37" ttm:role="caption" begin="00:01:48:28" end="00:01:50:15"><span tts:textAlign="center" tts:color="white">Tu devrais l'éliminer.</span></p>
+      <p xml:id="caption38" ttm:role="caption" begin="00:01:51:09" end="00:01:53:24"><span tts:textAlign="center" tts:color="white">Si seulement c'était aussi simple.</span></p>
+      <p xml:id="caption39" ttm:role="caption" begin="00:01:54:16" end="00:01:56:27"><span tts:textAlign="center" tts:color="white">Merci pour ton aide, ma chérie.</span><br /><span tts:textAlign="center" tts:color="white">       J'ai pris du retard.</span></p>
+      <p xml:id="caption40" ttm:role="caption" begin="00:01:56:29" end="00:02:00:18"><span tts:textAlign="center" tts:color="white">C'est parce que tu trouves toujours</span><br /><span tts:textAlign="center" tts:color="white">des excuses pour remettre à plus tard.</span></p>
+      <p xml:id="caption41" ttm:role="caption" begin="00:02:01:00" end="00:02:03:04"><span tts:textAlign="center" tts:color="white">Ou ce sont elles qui me trouvent.</span><br /><span tts:textAlign="center" tts:color="white">         Bonjour, maman.</span></p>
+      <p xml:id="caption42" ttm:role="caption" begin="00:02:03:06" end="00:02:06:15"><span tts:textAlign="center" tts:color="white">Bonjour. Je ne reste pas.</span><br /><span tts:textAlign="center" tts:color="white">Je viens juste chercher une robe.</span></p>
+      <p xml:id="caption43" ttm:role="caption" begin="00:02:06:17" end="00:02:08:28"><span tts:textAlign="center" tts:color="white">Chet m'emmène au théâtre, ce soir.</span></p>
+      <p xml:id="caption44" ttm:role="caption" begin="00:02:09:00" end="00:02:10:01"><span tts:textAlign="center" tts:color="white">Vous allez voir quoi ?</span></p>
+      <p xml:id="caption45" ttm:role="caption" begin="00:02:10:03" end="00:02:13:00"><span tts:textAlign="center" tts:color="white">La nouvelle pièce de Petrofsky,</span><br /><span tts:textAlign="center" tts:color="blue">       L'veil de l'Esprit.</span></p>
+      <p xml:id="caption46" ttm:role="caption" begin="00:02:13:02" end="00:02:15:04"><span tts:textAlign="center" tts:color="white">Attends. Tu n'avais pas</span><br /><span tts:textAlign="center" tts:color="white">     auditionné pour ça ?</span></p>
+      <p xml:id="caption47" ttm:role="caption" begin="00:02:15:06" end="00:02:18:11"><span tts:textAlign="center" tts:color="white">Si. Et cette fabuleuse actrice</span><br /><span tts:textAlign="center" tts:color="white"> Madge Vance a obtenu mon rôle,</span></p>
+      <p xml:id="caption48" ttm:role="caption" begin="00:02:18:13" end="00:02:19:23"><span tts:textAlign="center" tts:color="white">une fois de plus.</span></p>
+      <p xml:id="caption49" ttm:role="caption" begin="00:02:19:25" end="00:02:21:07"><span tts:textAlign="center" tts:color="white">Elle n'est même pas ton amie.</span></p>
+      <p xml:id="caption50" ttm:role="caption" begin="00:02:21:09" end="00:02:23:12"><span tts:textAlign="center" tts:color="white">- Tu es gentille d'aller la soutenir.</span><br /><span tts:textAlign="center" tts:color="white">           - Je sais.</span></p>
+      <p xml:id="caption51" ttm:role="caption" begin="00:02:23:14" end="00:02:25:22"><span tts:textAlign="center" tts:color="white">Et je dois y aller,</span><br /><span tts:textAlign="center" tts:color="white">   ou je vais être en retard.</span></p>
+      <p xml:id="caption52" ttm:role="caption" begin="00:02:25:24" end="00:02:28:05"><span tts:textAlign="center" tts:color="white">D'après les critiques, c'est un désastre.</span></p>
+      <p xml:id="caption53" ttm:role="caption" begin="00:02:28:07" end="00:02:30:20"><span tts:textAlign="center" tts:color="white">Voilà la Martha Rodgers</span><br /><span tts:textAlign="center" tts:color="white">         que je connais.</span></p>
+      <p xml:id="caption54" ttm:role="caption" begin="00:02:33:03" end="00:02:34:09"><span tts:textAlign="center" tts:color="white">C'est Beckett.</span></p>
+      <p xml:id="caption55" ttm:role="caption" begin="00:02:34:11" end="00:02:37:05"><span tts:textAlign="center" tts:color="white">Dis-moi qu'il y a eu un meurtre,</span><br /><span tts:textAlign="center" tts:color="white"> sinon je suis obligé d'écrire.</span></p>
+      <p xml:id="caption56" ttm:role="caption" begin="00:02:44:28" end="00:02:46:24"><span tts:textAlign="center" tts:color="white">On dit qu'il vaut mieux</span><br /><span tts:textAlign="center" tts:color="white">     mourir dans son sommeil.</span></p>
+      <p xml:id="caption57" ttm:role="caption" begin="00:02:46:26" end="00:02:48:29"><span tts:textAlign="center" tts:color="white">Ça vaut mieux si la balle</span><br /><span tts:textAlign="center" tts:color="white">     se loge bien proprement</span></p>
+      <p xml:id="caption58" ttm:role="caption" begin="00:02:49:01" end="00:02:51:20"><span tts:textAlign="center" tts:color="white">et tue sur le coup.</span><br /><span tts:textAlign="center" tts:color="white">   Lui n'a pas eu cette chance.</span></p>
+      <p xml:id="caption59" ttm:role="caption" begin="00:02:52:18" end="00:02:54:00"><span tts:textAlign="center" tts:color="white">La balle a manqué le cur.</span></p>
+      <p xml:id="caption60" ttm:role="caption" begin="00:02:54:02" end="00:02:55:16"><span tts:textAlign="center" tts:color="white">Il n'est pas mort tout de suite.</span></p>
+      <p xml:id="caption61" ttm:role="caption" begin="00:02:55:18" end="00:02:57:25"><span tts:textAlign="center" tts:color="white">On dirait qu'il essayait</span><br /><span tts:textAlign="center" tts:color="white">   d'atteindre le téléphone.</span></p>
+      <p xml:id="caption62" ttm:role="caption" begin="00:02:57:27" end="00:03:00:28"><span tts:textAlign="center" tts:color="white">Jusqu'à ce que le tueur</span><br /><span tts:textAlign="center" tts:color="white">       l'assomme avec ça.</span></p>
+      <p xml:id="caption63" ttm:role="caption" begin="00:03:01:20" end="00:03:04:07"><span tts:textAlign="center" tts:color="white">Pour éviter que les voisins</span><br /><span tts:textAlign="center" tts:color="white">   entendent un 2e coup de feu,</span></p>
+      <p xml:id="caption64" ttm:role="caption" begin="00:03:04:09" end="00:03:07:18"><span tts:textAlign="center" tts:color="white">il aura saisi le premier objet en vue</span><br /><span tts:textAlign="center" tts:color="white">         pour l'achever.</span></p>
+      <p xml:id="caption65" ttm:role="caption" begin="00:03:07:20" end="00:03:09:01"><span tts:textAlign="center" tts:color="white">Il y a du sang sur l'horloge.</span></p>
+      <p xml:id="caption66" ttm:role="caption" begin="00:03:09:03" end="00:03:11:01"><span tts:textAlign="center" tts:color="white">Elle a dû tomber par terre</span><br /><span tts:textAlign="center" tts:color="white">       pendant l'attaque.</span></p>
+      <p xml:id="caption67" ttm:role="caption" begin="00:03:11:03" end="00:03:15:10"><span tts:textAlign="center" tts:color="white">22 h 34. Au moins,</span><br /><span tts:textAlign="center" tts:color="white">on sait quand la fête a commencé.</span></p>
+      <p xml:id="caption68" ttm:role="caption" begin="00:03:15:12" end="00:03:16:15"><span tts:textAlign="center" tts:color="white">Pas de traces d'effraction.</span></p>
+      <p xml:id="caption69" ttm:role="caption" begin="00:03:16:17" end="00:03:20:00"><span tts:textAlign="center" tts:color="white">Il a dû la laisser ouverte</span><br /><span tts:textAlign="center" tts:color="white">       pour se rafraîchir.</span></p>
+      <p xml:id="caption70" ttm:role="caption" begin="00:03:20:02" end="00:03:22:23"><span tts:textAlign="center" tts:color="white">Et il n'y a pas de caméras de sécurité.</span></p>
+      <p xml:id="caption71" ttm:role="caption" begin="00:03:22:25" end="00:03:24:13"><span tts:textAlign="center" tts:color="white">Je n'en ai pas vu à l'entrée.</span></p>
+      <p xml:id="caption72" ttm:role="caption" begin="00:03:24:15" end="00:03:25:25"><span tts:textAlign="center" tts:color="white">La femme de ménage</span><br /><span tts:textAlign="center" tts:color="white">      l'a trouvé ce matin.</span></p>
+      <p xml:id="caption73" ttm:role="caption" begin="00:03:25:27" end="00:03:28:24"><span tts:textAlign="center" tts:color="white">D'habitude, Wilder est déjà au travail</span><br /><span tts:textAlign="center" tts:color="white">         à son arrivée.</span></p>
+      <p xml:id="caption74" ttm:role="caption" begin="00:03:28:26" end="00:03:30:11"><span tts:textAlign="center" tts:color="white">Wilder ? Damien Wilder ?</span></p>
+      <p xml:id="caption75" ttm:role="caption" begin="00:03:30:13" end="00:03:33:00"><span tts:textAlign="center" tts:color="white">- Oui, tu le connais ?</span><br /><span tts:textAlign="center" tts:color="white">  - J'ai entendu parler de lui.</span></p>
+      <p xml:id="caption76" ttm:role="caption" begin="00:03:33:02" end="00:03:34:24"><span tts:textAlign="center" tts:color="white">C'est une photo</span><br /><span tts:textAlign="center" tts:color="white">     d'une de ses campagnes.</span></p>
+      <p xml:id="caption77" ttm:role="caption" begin="00:03:34:26" end="00:03:38:09"><span tts:textAlign="center" tts:color="white"> Il dirige une ligne de boutiques</span><br /><span tts:textAlign="center" tts:color="white">de produits de beauté pour hommes.</span></p>
+      <p xml:id="caption78" ttm:role="caption" begin="00:03:38:11" end="00:03:39:19"><span tts:textAlign="center" tts:color="white">Des trucs pour la salle de bain ?</span></p>
+      <p xml:id="caption79" ttm:role="caption" begin="00:03:39:21" end="00:03:43:01"><span tts:textAlign="center" tts:color="white">Il a une lotion sans alcool</span><br /><span tts:textAlign="center" tts:color="white">  qui est vraiment fantastique.</span></p>
+      <p xml:id="caption80" ttm:role="caption" begin="00:03:43:08" end="00:03:46:00"><span tts:textAlign="center" tts:color="white">Et une mousse à raser du tonnerre.</span></p>
+      <p xml:id="caption81" ttm:role="caption" begin="00:03:46:02" end="00:03:47:12"><span tts:textAlign="center" tts:color="white">Le super-marché me convient.</span></p>
+      <p xml:id="caption82" ttm:role="caption" begin="00:03:47:14" end="00:03:50:25"><span tts:textAlign="center" tts:color="white">Non, attends.</span><br /><span tts:textAlign="center" tts:color="white">Ces trucs vont vous changer la vie.</span></p>
+      <p xml:id="caption83" ttm:role="caption" begin="00:03:51:27" end="00:03:53:10"><span tts:textAlign="center" tts:color="white">- C'est chaud.</span><br /><span tts:textAlign="center" tts:color="white">         - C'est chaud.</span></p>
+      <p xml:id="caption84" ttm:role="caption" begin="00:03:53:12" end="00:03:54:27"><span tts:textAlign="center" tts:color="white">- C'est chaud ?</span><br /><span tts:textAlign="center" tts:color="white">         - C'est chaud.</span></p>
+      <p xml:id="caption85" ttm:role="caption" begin="00:03:55:09" end="00:03:57:20"><span tts:textAlign="center" tts:color="white">- Comment font-ils ?</span><br /><span tts:textAlign="center" tts:color="white"> - La magie de la chimie moderne.</span></p>
+      <p xml:id="caption86" ttm:role="caption" begin="00:03:57:22" end="00:03:59:02"><span tts:textAlign="center" tts:color="white"> Comme si un barbier vous rasait.</span></p>
+      <p xml:id="caption87" ttm:role="caption" begin="00:03:59:04" end="00:04:02:24"><span tts:textAlign="center" tts:color="white">C'est le nom, d'ailleurs :</span><br /><span tts:textAlign="center" tts:color="white">       "barbier en flacon".</span></p>
+      <p xml:id="caption88" ttm:role="caption" begin="00:04:02:26" end="00:04:03:29"><span tts:textAlign="center" tts:color="white">Je parie que c'est cher ?</span></p>
+      <p xml:id="caption89" ttm:role="caption" begin="00:04:04:01" end="00:04:06:04"><span tts:textAlign="center" tts:color="white">50 $ le flacon, mais ça vaut le coup.</span></p>
+      <p xml:id="caption90" ttm:role="caption" begin="00:04:06:06" end="00:04:07:09"><span tts:textAlign="center" tts:color="white">- Absolument.</span><br /><span tts:textAlign="center" tts:color="white">         - Tout à fait.</span></p>
+      <p xml:id="caption91" ttm:role="caption" begin="00:04:07:11" end="00:04:09:00"><span tts:textAlign="center" tts:color="white">- Oui.</span><br /><span tts:textAlign="center" tts:color="white">           - Les gars ?</span></p>
+      <p xml:id="caption92" ttm:role="caption" begin="00:04:09:02" end="00:04:10:14"><span tts:textAlign="center" tts:color="white">Un homme s'est fait assassiner, ici.</span></p>
+      <p xml:id="caption93" ttm:role="caption" begin="00:04:10:16" end="00:04:13:16"><span tts:textAlign="center" tts:color="white">Et nous honorons sa mémoire.</span></p>
+      <p xml:id="caption94" ttm:role="caption" begin="00:04:14:18" end="00:04:17:21"><span tts:textAlign="center" tts:color="white">On dirait Sex and the City,</span><br /><span tts:textAlign="center" tts:color="white">       mais avec des mecs.</span></p>
+      <p xml:id="caption95" ttm:role="caption" begin="00:04:17:23" end="00:04:19:05"><span tts:textAlign="center" tts:color="white">Si vous alliez interroger</span><br /><span tts:textAlign="center" tts:color="white">           les voisins,</span></p>
+      <p xml:id="caption96" ttm:role="caption" begin="00:04:19:07" end="00:04:21:15"><span tts:textAlign="center" tts:color="white">au cas où ils auraient vu</span><br /><span tts:textAlign="center" tts:color="white">   ou entendu quelque chose ?</span></p>
+      <p xml:id="caption97" ttm:role="caption" begin="00:04:21:17" end="00:04:23:20"><span tts:textAlign="center" tts:color="white">- Oui. Je m'en occupe.</span><br /><span tts:textAlign="center" tts:color="white">      - Oui, tout de suite.</span></p>
+      <p xml:id="caption98" ttm:role="caption" begin="00:04:23:22" end="00:04:25:08"><span tts:textAlign="center" tts:color="white">Castle, j'ai une chose à vous montrer.</span></p>
+      <p xml:id="caption99" ttm:role="caption" begin="00:04:29:05" end="00:04:31:25"><span tts:textAlign="center" tts:color="white">On a volé ce qui était dans ces vitrines.</span></p>
+      <p xml:id="caption100" ttm:role="caption" begin="00:04:31:27" end="00:04:33:22"><span tts:textAlign="center" tts:color="white">Ceci permet d'ajuster l'humidité.</span></p>
+      <p xml:id="caption101" ttm:role="caption" begin="00:04:34:21" end="00:04:36:06"><span tts:textAlign="center" tts:color="white">Ça devait avoir beaucoup de valeur,</span></p>
+      <p xml:id="caption102" ttm:role="caption" begin="00:04:36:08" end="00:04:40:11"><span tts:textAlign="center" tts:color="white">parce que le tueur a ignoré</span><br /><span tts:textAlign="center" tts:color="white">la télé plasma et le lecteur Blu-ray.</span></p>
+      <p xml:id="caption103" ttm:role="caption" begin="00:04:40:13" end="00:04:41:25"><span tts:textAlign="center" tts:color="white">Un cambriolage qui a mal tourné ?</span></p>
+      <p xml:id="caption104" ttm:role="caption" begin="00:04:41:27" end="00:04:45:13"><span tts:textAlign="center" tts:color="white">Ça y ressemble, pas vrai ?</span><br /><span tts:textAlign="center" tts:color="white">         Mais il y a ça.</span></p>
+      <p xml:id="caption105" ttm:role="caption" begin="00:04:47:22" end="00:04:49:22"><span tts:textAlign="center" tts:color="white">C'est un "E" ou un "O" ?</span></p>
+      <p xml:id="caption106" ttm:role="caption" begin="00:04:50:09" end="00:04:54:17"><span tts:textAlign="center" tts:color="white">"Murdero", c'est meurtre en espagnol ?</span><br /><span tts:textAlign="center" tts:color="white">"Murdere". Le tueur était italien.</span></p>
+      <p xml:id="caption107" ttm:role="caption" begin="00:04:54:19" end="00:04:57:24"><span tts:textAlign="center" tts:color="white">Pourquoi un voleur prendrait-il le temps</span></p>
+      <p xml:id="caption108" ttm:role="caption" begin="00:04:57:26" end="00:05:00:09"><span tts:textAlign="center" tts:color="white">d'écrire un message</span><br /><span tts:textAlign="center" tts:color="white">   avec le sang de la victime ?</span></p>
+      <p xml:id="caption109" ttm:role="caption" begin="00:05:00:11" end="00:05:02:24"><span tts:textAlign="center" tts:color="white">Surtout ce message-là.</span><br /><span tts:textAlign="center" tts:color="white">   On sait que c'est "meurtre".</span></p>
+      <p xml:id="caption110" ttm:role="caption" begin="00:05:02:26" end="00:05:04:23"><span tts:textAlign="center" tts:color="white">Le cadavre est un indice</span><br /><span tts:textAlign="center" tts:color="white">       plutôt concluant.</span></p>
+      <p xml:id="caption111" ttm:role="caption" begin="00:05:04:25" end="00:05:07:20"><span tts:textAlign="center" tts:color="white">On n'a pas terminé, mais écoutez-ça.</span></p>
+      <p xml:id="caption112" ttm:role="caption" begin="00:05:07:22" end="00:05:10:11"><span tts:textAlign="center" tts:color="white">Une voisine a dit qu'elle écoutait</span><br /><span tts:textAlign="center" tts:color="white">     de la musique hier soir.</span></p>
+      <p xml:id="caption113" ttm:role="caption" begin="00:05:10:13" end="00:05:11:22"><span tts:textAlign="center" tts:color="white">Donc elle n'a rien entendu ?</span></p>
+      <p xml:id="caption114" ttm:role="caption" begin="00:05:11:24" end="00:05:14:00"><span tts:textAlign="center" tts:color="white">Non, mais elle a ouvert</span><br /><span tts:textAlign="center" tts:color="white"> sa porte arrière pour le chat,</span></p>
+      <p xml:id="caption115" ttm:role="caption" begin="00:05:14:02" end="00:05:15:20"><span tts:textAlign="center" tts:color="white">et elle dit avoir vu quelqu'un</span></p>
+      <p xml:id="caption116" ttm:role="caption" begin="00:05:15:22" end="00:05:17:01"><span tts:textAlign="center" tts:color="white">qui enjambait la clôture de Wilder.</span></p>
+      <p xml:id="caption117" ttm:role="caption" begin="00:05:17:03" end="00:05:18:03"><span tts:textAlign="center" tts:color="white">Vous avez une description ?</span></p>
+      <p xml:id="caption118" ttm:role="caption" begin="00:05:18:05" end="00:05:20:24"><span tts:textAlign="center" tts:color="white">Oui, "un pied qui disparaissait</span><br /><span tts:textAlign="center" tts:color="white">     derrière la clôture."</span></p>
+      <p xml:id="caption119" ttm:role="caption" begin="00:05:20:26" end="00:05:22:00"><span tts:textAlign="center" tts:color="white">Elle t'a dit l'heure qu'il était ?</span></p>
+      <p xml:id="caption120" ttm:role="caption" begin="00:05:22:02" end="00:05:24:14"><span tts:textAlign="center" tts:color="white">Exactement 22 h 52.</span><br /><span tts:textAlign="center" tts:color="white">     C'était sur son alarme.</span></p>
+      <p xml:id="caption121" ttm:role="caption" begin="00:05:24:16" end="00:05:26:08"><span tts:textAlign="center" tts:color="white">Elle a oublié de l'enclencher.</span></p>
+      <p xml:id="caption122" ttm:role="caption" begin="00:05:26:10" end="00:05:29:27"><span tts:textAlign="center" tts:color="white">Alors on sait à quelle heure</span><br /><span tts:textAlign="center" tts:color="white">         la fête a fini.</span></p>
+      <p xml:id="caption123" ttm:role="caption" begin="00:05:29:29" end="00:05:31:17"><span tts:textAlign="center" tts:color="white">Faites inspecter</span><br /><span tts:textAlign="center" tts:color="white">    les fibres et empreintes,</span></p>
+      <p xml:id="caption124" ttm:role="caption" begin="00:05:31:19" end="00:05:33:05"><span tts:textAlign="center" tts:color="white">sans oublier le jardin.</span></p>
+      <p xml:id="caption125" ttm:role="caption" begin="00:05:33:07" end="00:05:34:19"><span tts:textAlign="center" tts:color="white">Entendu.</span></p>
+      <p xml:id="caption126" ttm:role="caption" begin="00:05:40:18" end="00:05:42:15"><span tts:textAlign="center" tts:color="white">LE JOUR DU MEURTRE</span></p>
+      <p xml:id="caption127" ttm:role="caption" begin="00:05:42:17" end="00:05:44:23"><span tts:textAlign="center" tts:color="blue">MESSAGE TROUV</span></p>
+      <p xml:id="caption128" ttm:role="caption" begin="00:05:48:27" end="00:05:50:20"><span tts:textAlign="center" tts:color="white">- Demming.</span><br /><span tts:textAlign="center" tts:color="white">            - Castle.</span></p>
+      <p xml:id="caption129" ttm:role="caption" begin="00:05:55:18" end="00:05:58:16"><span tts:textAlign="center" tts:color="white">Vous utilisez des tableaux,</span><br /><span tts:textAlign="center" tts:color="white">       dans votre brigade ?</span></p>
+      <p xml:id="caption130" ttm:role="caption" begin="00:05:58:18" end="00:05:59:29"><span tts:textAlign="center" tts:color="white">Oui, bien sûr.</span></p>
+      <p xml:id="caption131" ttm:role="caption" begin="00:06:01:11" end="00:06:04:27"><span tts:textAlign="center" tts:color="white">Revenez demain. Ce sera couvert</span><br /><span tts:textAlign="center" tts:color="white">     de notes sur le meurtre.</span></p>
+      <p xml:id="caption132" ttm:role="caption" begin="00:06:04:29" end="00:06:08:09"><span tts:textAlign="center" tts:color="white">Beckett m'a demandé de l'assister</span><br /><span tts:textAlign="center" tts:color="white">    dans l'enquête, alors...</span></p>
+      <p xml:id="caption133" ttm:role="caption" begin="00:06:08:11" end="00:06:09:16"><span tts:textAlign="center" tts:color="white">Vraiment ?</span></p>
+      <p xml:id="caption134" ttm:role="caption" begin="00:06:09:18" end="00:06:11:05"><span tts:textAlign="center" tts:color="white">Oui, car un vol a été commis.</span></p>
+      <p xml:id="caption135" ttm:role="caption" begin="00:06:11:21" end="00:06:13:01"><span tts:textAlign="center" tts:color="white">Bien sûr.</span></p>
+      <p xml:id="caption136" ttm:role="caption" begin="00:06:13:06" end="00:06:15:21"><span tts:textAlign="center" tts:color="white">J'ai trouvé un proche de Wilder,</span><br /><span tts:textAlign="center" tts:color="white">        son cousin Blake.</span></p>
+      <p xml:id="caption137" ttm:role="caption" begin="00:06:15:23" end="00:06:17:29"><span tts:textAlign="center" tts:color="white">Il est prêt à se faire interroger.</span></p>
+      <p xml:id="caption138" ttm:role="caption" begin="00:06:20:14" end="00:06:23:22"><span tts:textAlign="center" tts:color="white">Vous savez ce qui l'a incité</span><br /><span tts:textAlign="center" tts:color="white">à entrer dans cette industrie ? L'acné.</span></p>
+      <p xml:id="caption139" ttm:role="caption" begin="00:06:24:07" end="00:06:26:16"><span tts:textAlign="center" tts:color="white">Il en avait à l'adolescence,</span><br /><span tts:textAlign="center" tts:color="white">       une chose terrible.</span></p>
+      <p xml:id="caption140" ttm:role="caption" begin="00:06:26:18" end="00:06:28:17"><span tts:textAlign="center" tts:color="white">J'avais été heureux de lui faire un prêt</span></p>
+      <p xml:id="caption141" ttm:role="caption" begin="00:06:28:19" end="00:06:30:13"><span tts:textAlign="center" tts:color="white">pour monter son affaire.</span></p>
+      <p xml:id="caption142" ttm:role="caption" begin="00:06:32:00" end="00:06:34:03"><span tts:textAlign="center" tts:color="white">C'était quelqu'un de très bien.</span></p>
+      <p xml:id="caption143" ttm:role="caption" begin="00:06:34:12" end="00:06:37:27"><span tts:textAlign="center" tts:color="white">Pourquoi on lui ferait</span><br /><span tts:textAlign="center" tts:color="white">    une chose pareille, je...</span></p>
+      <p xml:id="caption144" ttm:role="caption" begin="00:06:39:06" end="00:06:42:25"><span tts:textAlign="center" tts:color="white">Blake, vous pouvez peut-être</span><br /><span tts:textAlign="center" tts:color="white">nous renseigner sur quelque chose.</span></p>
+      <p xml:id="caption145" ttm:role="caption" begin="00:06:42:27" end="00:06:45:12"><span tts:textAlign="center" tts:color="white">Les vitrines du salon ont été forcées</span></p>
+      <p xml:id="caption146" ttm:role="caption" begin="00:06:45:14" end="00:06:46:28"><span tts:textAlign="center" tts:color="white">et le contenu dérobé.</span></p>
+      <p xml:id="caption147" ttm:role="caption" begin="00:06:47:00" end="00:06:49:10"><span tts:textAlign="center" tts:color="white">C'était là qu'il gardait ses livres.</span></p>
+      <p xml:id="caption148" ttm:role="caption" begin="00:06:49:12" end="00:06:52:28"><span tts:textAlign="center" tts:color="white">C'était un collectionneur.</span><br /><span tts:textAlign="center" tts:color="white">Des livres rares, dédicacés, etc.</span></p>
+      <p xml:id="caption149" ttm:role="caption" begin="00:06:53:00" end="00:06:55:24"><span tts:textAlign="center" tts:color="white">Ça devait valoir des milliers,</span><br /><span tts:textAlign="center" tts:color="white">      peut-être bien plus.</span></p>
+      <p xml:id="caption150" ttm:role="caption" begin="00:06:55:26" end="00:06:57:16"><span tts:textAlign="center" tts:color="white">Alors, c'était un cambriolage ?</span></p>
+      <p xml:id="caption151" ttm:role="caption" begin="00:06:57:18" end="00:06:59:18"><span tts:textAlign="center" tts:color="white">Quelqu'un l'a tué pour ses livres ?</span></p>
+      <p xml:id="caption152" ttm:role="caption" begin="00:06:59:20" end="00:07:01:10"><span tts:textAlign="center" tts:color="white">Il y a peut-être une autre mobile.</span></p>
+      <p xml:id="caption153" ttm:role="caption" begin="00:07:01:12" end="00:07:03:25"><span tts:textAlign="center" tts:color="white">Il y avait un message sur le mur.</span></p>
+      <p xml:id="caption154" ttm:role="caption" begin="00:07:03:27" end="00:07:05:26"><span tts:textAlign="center" tts:color="white">- C'est bizarre.</span><br /><span tts:textAlign="center" tts:color="white">   - On travaille la question.</span></p>
+      <p xml:id="caption155" ttm:role="caption" begin="00:07:05:28" end="00:07:09:01"><span tts:textAlign="center" tts:color="white">Vous pouvez nous aider</span><br /><span tts:textAlign="center" tts:color="white">         avec les livres.</span></p>
+      <p xml:id="caption156" ttm:role="caption" begin="00:07:09:03" end="00:07:10:27"><span tts:textAlign="center" tts:color="white">Avait-il un catalogue de sa collection ?</span></p>
+      <p xml:id="caption157" ttm:role="caption" begin="00:07:10:29" end="00:07:12:22"><span tts:textAlign="center" tts:color="white">Oui. Damien comptait sur moi</span></p>
+      <p xml:id="caption158" ttm:role="caption" begin="00:07:12:24" end="00:07:14:04"><span tts:textAlign="center" tts:color="white">pour l'aider avec ses comptes.</span></p>
+      <p xml:id="caption159" ttm:role="caption" begin="00:07:14:06" end="00:07:16:24"><span tts:textAlign="center" tts:color="white">Son assureur était un de mes amis.</span></p>
+      <p xml:id="caption160" ttm:role="caption" begin="00:07:16:26" end="00:07:19:02"><span tts:textAlign="center" tts:color="white">Autant qu'on sache,</span><br /><span tts:textAlign="center" tts:color="white">   il ne manque que les livres,</span></p>
+      <p xml:id="caption161" ttm:role="caption" begin="00:07:19:04" end="00:07:22:06"><span tts:textAlign="center" tts:color="white">donc le voleur savait d'avance</span><br /><span tts:textAlign="center" tts:color="white">       ce qu'il cherchait.</span></p>
+      <p xml:id="caption162" ttm:role="caption" begin="00:07:22:08" end="00:07:24:23"><span tts:textAlign="center" tts:color="white">Il a dû avoir l'opportunité</span><br /><span tts:textAlign="center" tts:color="white">   d'entrer dans l'appartement.</span></p>
+      <p xml:id="caption163" ttm:role="caption" begin="00:07:24:25" end="00:07:27:29"><span tts:textAlign="center" tts:color="white">Damien venait de faire rénover</span><br /><span tts:textAlign="center" tts:color="white">        toute la cuisine.</span></p>
+      <p xml:id="caption164" ttm:role="caption" begin="00:07:28:01" end="00:07:30:18"><span tts:textAlign="center" tts:color="white">Il y avait des ouvriers</span><br /><span tts:textAlign="center" tts:color="white">      pendant des semaines.</span></p>
+      <p xml:id="caption165" ttm:role="caption" begin="00:07:32:17" end="00:07:33:17"><span tts:textAlign="center" tts:color="blue">LIVRES VOLS</span></p>
+      <p xml:id="caption166" ttm:role="caption" begin="00:07:33:19" end="00:07:34:22"><span tts:textAlign="center" tts:color="white">Tué pour des livres rares.</span></p>
+      <p xml:id="caption167" ttm:role="caption" begin="00:07:34:24" end="00:07:37:26"><span tts:textAlign="center" tts:color="white">Je vais enquêter sur les ouvriers,</span><br /><span tts:textAlign="center" tts:color="white"> voir si quelqu'un a un casier.</span></p>
+      <p xml:id="caption168" ttm:role="caption" begin="00:07:37:28" end="00:07:39:16"><span tts:textAlign="center" tts:color="white">Merci, Tom.</span><br /><span tts:textAlign="center" tts:color="white"> J'apprécie beaucoup ton aide.</span></p>
+      <p xml:id="caption169" ttm:role="caption" begin="00:07:39:18" end="00:07:41:26"><span tts:textAlign="center" tts:color="white">Je te ferai signe</span><br /><span tts:textAlign="center" tts:color="white">   si je trouve quelque chose.</span></p>
+      <p xml:id="caption170" ttm:role="caption" begin="00:07:44:20" end="00:07:46:08"><span tts:textAlign="center" tts:color="white">Vous sautez aux conclusions,</span><br /><span tts:textAlign="center" tts:color="white">           les livres</span></p>
+      <p xml:id="caption171" ttm:role="caption" begin="00:07:46:10" end="00:07:47:22"><span tts:textAlign="center" tts:color="white">ne sont pas forcément</span><br /><span tts:textAlign="center" tts:color="white">       la cause du meurtre.</span></p>
+      <p xml:id="caption172" ttm:role="caption" begin="00:07:47:24" end="00:07:50:03"><span tts:textAlign="center" tts:color="white">Ils ont bien été volés.</span></p>
+      <p xml:id="caption173" ttm:role="caption" begin="00:07:50:05" end="00:07:52:20"><span tts:textAlign="center" tts:color="white">Le message sur le miroir</span><br /><span tts:textAlign="center" tts:color="white">  implique l'intention de tuer,</span></p>
+      <p xml:id="caption174" ttm:role="caption" begin="00:07:52:22" end="00:07:54:27"><span tts:textAlign="center" tts:color="white">un autre type de mobile.</span></p>
+      <p xml:id="caption175" ttm:role="caption" begin="00:07:54:29" end="00:07:57:25"><span tts:textAlign="center" tts:color="white">Voler des livres,</span><br /><span tts:textAlign="center" tts:color="white"> c'est un crime d'opportunisme.</span></p>
+      <p xml:id="caption176" ttm:role="caption" begin="00:07:57:27" end="00:08:00:08"><span tts:textAlign="center" tts:color="white">Et maintenant,</span><br /><span tts:textAlign="center" tts:color="white">qui c'est qui saute aux conclusions ?</span></p>
+      <p xml:id="caption177" ttm:role="caption" begin="00:08:00:10" end="00:08:03:00"><span tts:textAlign="center" tts:color="white">Je n'aime pas voir les gens</span><br /><span tts:textAlign="center" tts:color="white">       perdre leur temps.</span></p>
+      <p xml:id="caption178" ttm:role="caption" begin="00:08:03:02" end="00:08:05:13"><span tts:textAlign="center" tts:color="white">La clé est ce message,</span><br /><span tts:textAlign="center" tts:color="white">         pas les livres.</span></p>
+      <p xml:id="caption179" ttm:role="caption" begin="00:08:05:15" end="00:08:08:01"><span tts:textAlign="center" tts:color="white">Je pense qu'on devrait suivre</span><br /><span tts:textAlign="center" tts:color="white">         les deux pistes.</span></p>
+      <p xml:id="caption180" ttm:role="caption" begin="00:08:08:03" end="00:08:10:26"><span tts:textAlign="center" tts:color="white">- C'est votre petit ami.</span><br /><span tts:textAlign="center" tts:color="white">           - Pardon ?</span></p>
+      <p xml:id="caption181" ttm:role="caption" begin="00:08:10:28" end="00:08:13:02"><span tts:textAlign="center" tts:color="white">Désolé. Je saute encore</span><br /><span tts:textAlign="center" tts:color="white">        aux conclusions ?</span></p>
+      <p xml:id="caption182" ttm:role="caption" begin="00:08:13:04" end="00:08:15:05"><span tts:textAlign="center" tts:color="white">Ça ne vous regarde pas.</span></p>
+      <p xml:id="caption183" ttm:role="caption" begin="00:08:15:20" end="00:08:16:24"><span tts:textAlign="center" tts:color="white">Yo.</span></p>
+      <p xml:id="caption184" ttm:role="caption" begin="00:08:17:20" end="00:08:19:23"><span tts:textAlign="center" tts:color="white">J'ai fait des recherches sur Wilder.</span></p>
+      <p xml:id="caption185" ttm:role="caption" begin="00:08:19:25" end="00:08:22:29"><span tts:textAlign="center" tts:color="white">Il a reporté un incident à la police</span><br /><span tts:textAlign="center" tts:color="white">       il y a trois jours.</span></p>
+      <p xml:id="caption186" ttm:role="caption" begin="00:08:23:01" end="00:08:24:16"><span tts:textAlign="center" tts:color="white">Quelqu'un a vandalisé</span><br /><span tts:textAlign="center" tts:color="white">         son appartement.</span></p>
+      <p xml:id="caption187" ttm:role="caption" begin="00:08:24:18" end="00:08:26:12"><span tts:textAlign="center" tts:color="white">Versé de la peinture rouge</span><br /><span tts:textAlign="center" tts:color="white">         sur son perron.</span></p>
+      <p xml:id="caption188" ttm:role="caption" begin="00:08:26:14" end="00:08:29:07"><span tts:textAlign="center" tts:color="white">Oui, son entreprise était harcelée</span></p>
+      <p xml:id="caption189" ttm:role="caption" begin="00:08:29:09" end="00:08:30:26"><span tts:textAlign="center" tts:color="white">par des activistes écolo.</span></p>
+      <p xml:id="caption190" ttm:role="caption" begin="00:08:30:28" end="00:08:33:00"><span tts:textAlign="center" tts:color="white">Mais ses produits disent tous :</span><br /><span tts:textAlign="center" tts:color="white">     "respect des animaux".</span></p>
+      <p xml:id="caption191" ttm:role="caption" begin="00:08:33:02" end="00:08:35:06"><span tts:textAlign="center" tts:color="white">Il y avait un problème</span></p>
+      <p xml:id="caption192" ttm:role="caption" begin="00:08:35:08" end="00:08:37:18"><span tts:textAlign="center" tts:color="white">avec un de ses sous-traitants.</span></p>
+      <p xml:id="caption193" ttm:role="caption" begin="00:08:37:20" end="00:08:39:16"><span tts:textAlign="center" tts:color="white">Wilder n'en savait rien.</span></p>
+      <p xml:id="caption194" ttm:role="caption" begin="00:08:39:18" end="00:08:41:23"><span tts:textAlign="center" tts:color="white">C'était ça, le message.</span></p>
+      <p xml:id="caption195" ttm:role="caption" begin="00:08:42:18" end="00:08:44:21"><span tts:textAlign="center" tts:color="white">Ce n'était pas une faute.</span><br /><span tts:textAlign="center" tts:color="white">   Le mot est juste inachevé.</span></p>
+      <p xml:id="caption196" ttm:role="caption" begin="00:08:44:23" end="00:08:46:00"><span tts:textAlign="center" tts:color="white">Il écrivaient "meurtrier".</span></p>
+      <p xml:id="caption197" ttm:role="caption" begin="00:08:46:02" end="00:08:48:13"><span tts:textAlign="center" tts:color="white">Alors vous croyez</span><br /><span tts:textAlign="center" tts:color="white"> qu'un des activistes l'a tué.</span></p>
+      <p xml:id="caption198" ttm:role="caption" begin="00:08:48:15" end="00:08:50:22"><span tts:textAlign="center" tts:color="white">Oui. L'un d'eux en a eu assez</span><br /><span tts:textAlign="center" tts:color="white">          du faux sang,</span></p>
+      <p xml:id="caption199" ttm:role="caption" begin="00:08:50:24" end="00:08:52:24"><span tts:textAlign="center" tts:color="white">et s'est dit : "Fini de jouer."</span></p>
+      <p xml:id="caption200" ttm:role="caption" begin="00:08:52:26" end="00:08:54:19"><span tts:textAlign="center" tts:color="white">Allons au bureau de Wilder</span></p>
+    -->	</div>
+  </body>
+</tt>

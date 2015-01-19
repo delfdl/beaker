@@ -1,0 +1,310 @@
+<?php 
+     ini_set ("display_errors", "1");
+     error_reporting(E_ALL);
+?>     
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<title>Streaming Monitor - FDL</title>
+
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<!--[if IE]> <link href="css/ie.css" rel="stylesheet" type="text/css"> <![endif]-->
+<script src="/fdl/jwplayer.js"></script>
+<script>jwplayer.key="zYUzlLKZYyvvBzT13IPX1XDX5rCXrr4QzOkjBTtSdJA=";</script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/plugins/charts/excanvas.min.js"></script>
+<script type="text/javascript" src="js/plugins/charts/jquery.flot.js"></script>
+<script type="text/javascript" src="js/plugins/charts/jquery.flot.orderBars.js"></script>
+<script type="text/javascript" src="js/plugins/charts/jquery.flot.pie.js"></script>
+<script type="text/javascript" src="js/plugins/charts/jquery.flot.resize.js"></script>
+<script type="text/javascript" src="js/plugins/charts/jquery.sparkline.min.js"></script>
+<script type="text/javascript" src="js/plugins/tables/jquery.dataTables.js"></script>
+<script type="text/javascript" src="js/plugins/tables/jquery.sortable.js"></script>
+<script type="text/javascript" src="js/plugins/tables/jquery.resizable.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.autosize.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.uniform.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.inputlimiter.min.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.tagsinput.min.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.maskedinput.min.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.autotab.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.select2.min.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.dualListBox.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.cleditor.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.ibutton.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.validationEngine-en.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.validationEngine.js"></script>
+<script type="text/javascript" src="js/plugins/uploader/plupload.js"></script>
+<script type="text/javascript" src="js/plugins/uploader/plupload.html4.js"></script>
+<script type="text/javascript" src="js/plugins/uploader/plupload.html5.js"></script>
+<script type="text/javascript" src="js/plugins/uploader/jquery.plupload.queue.js"></script>
+<script type="text/javascript" src="js/plugins/wizards/jquery.form.wizard.js"></script>
+<script type="text/javascript" src="js/plugins/wizards/jquery.validate.js"></script>
+<script type="text/javascript" src="js/plugins/wizards/jquery.form.js"></script>
+<script type="text/javascript" src="js/plugins/ui/jquery.collapsible.min.js"></script>
+<script type="text/javascript" src="js/plugins/ui/jquery.breadcrumbs.js"></script>
+<script type="text/javascript" src="js/plugins/ui/jquery.tipsy.js"></script>
+<script type="text/javascript" src="js/plugins/ui/jquery.progress.js"></script>
+<script type="text/javascript" src="js/plugins/ui/jquery.timeentry.min.js"></script>
+<script type="text/javascript" src="js/plugins/ui/jquery.colorpicker.js"></script>
+<script type="text/javascript" src="js/plugins/ui/jquery.jgrowl.js"></script>
+<script type="text/javascript" src="js/plugins/ui/jquery.fancybox.js"></script>
+<script type="text/javascript" src="js/plugins/ui/jquery.fileTree.js"></script>
+<script type="text/javascript" src="js/plugins/ui/jquery.sourcerer.js"></script>
+<script type="text/javascript" src="js/plugins/others/jquery.fullcalendar.js"></script>
+<script type="text/javascript" src="js/plugins/others/jquery.elfinder.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/plugins/ui/jquery.easytabs.min.js"></script>
+<script type="text/javascript" src="js/files/bootstrap.js"></script>
+<script type="text/javascript" src="js/files/functions.js"></script>
+<script type="text/javascript" src="js/charts/chart.js"></script>
+<script type="text/javascript" src="js/charts/bar.js"></script>
+<script type="text/javascript" src="js/charts/hBar.js"></script>
+<script type="text/javascript" src="js/charts/updating.js"></script>
+<script type="text/javascript" src="js/charts/pie.js"></script>
+<script type="text/javascript" src="js/charts/chart_side.js"></script>
+<script type="text/javascript" src="js/charts/bar_side.js"></script>
+<script type="text/javascript" src="js/charts/hBar_side.js"></script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="/js/jquery.cycle2.min.js"></script>
+<script type="text/javascript" src="/js/jquery.cycle2.caption2.min.js"></script>
+		<link type="text/css" rel="stylesheet" href="css/jquery.capty.css"/>
+		<script type="text/javascript" src="/js/jquery.js"></script>
+		<script type="text/javascript" src="/js/jquery.capty.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="/shadowbox/shadowbox.css">
+<script type="text/javascript" src="/shadowbox/shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init();
+</script>
+
+<script>
+(function($)
+{
+    $(document).ready(function()
+    {
+        $.ajaxSetup(
+        {
+            cache: false,
+            beforeSend: function() {
+               // $('#content').hide();
+                $('#loading').show();
+                $('#loading2').show();
+                $('#timecontainer').hide();
+            },
+            complete: function() {
+               // $('#loading').hide();
+                $('#content').show();
+               $('#timecontainer').show();
+            },
+            success: function() {
+                $('#loading').hide();
+                $('#content').show();
+                $('#loading2').hide();
+                $('#timecontainer').show();
+                
+            }
+        });
+        var $sidecontainer = $("#sidecontent");
+        $sidecontainer.load("/ajax/genthumbs.php");
+        
+        var $thumbcontainer = $("#thumbcontent");
+        $thumbcontainer.load("/ajax/thumbs.php");
+        
+        var $timecontainer = $("#timecontent");
+        $timecontainer.load("/ajax/sideparser.php");
+        
+        var $beakercontainer = $("#beakercontent");
+        $beakercontainer.load("/ajax/beaker.php");
+        
+        // var $sqlcontainer = $("#sqlcontent");
+        // $sqlcontainer.load("/newparser.php");
+        
+        var refreshId = setInterval(function()
+        {   
+        	  //$("aa-portx-monitor").attr("src", "/thumbs/aa-port2-monitor.jpg");
+            $sidecontainer.load('/ajax/genthumbs.php');
+            $thumbcontainer.load("/ajax/thumbs.php");
+            $timecontainer.load("/ajax/sideparser.php");
+            $beakercontainer.load("/ajax/beaker.php");
+            
+        }, 60000); // refresh every 60 seconds
+    });
+})(jQuery);
+</script>
+<script type="text/javascript" src="/js/files/functions.js"></script>
+<meta http-equiv="refresh" content="360" />
+</head>
+
+<body>
+<?php 
+// $snmp_values = snmpwalk("94.56.170.196", "aazfdl", null);
+// print_r($snmp_values);
+?>
+
+
+<div id="top">
+    <div class="wrapper">
+        <a href="/index.php" title="" class="logo"><img src="/images/fdl-logo2.png" alt="" /></a> BETA 1.0
+        <!--fdl-logo2.png-->
+        
+        <!-- Right top nav -->
+        <div class="topNav">
+            <ul class="userNav">
+                <li><a          title="" class="search"></a></li>
+                <li><a href="#" title="" class="screen"></a></li>
+                <li><a href="#" title="" class="settings"></a></li>
+                <li><a href="#" title="" class="logout"></a></li>
+                <li class="showTabletP"><a href="#" title="" class="sidebar"></a></li>
+            </ul>
+            <a title="" class="iButton"></a>
+            <a title="" class="iTop"></a>
+            <div class="topSearch">
+                <div class="topDropArrow"></div>
+                <form action="">
+                    <input type="text" placeholder="search..." name="topSearch" />
+                    <input type="submit" value="" />
+                </form>
+            </div>
+        </div>
+        
+        <!-- Responsive nav -->
+        <ul class="altMenu">
+            <li><a href="index.php" title="">Dashboard</a></li>
+            <li><a href="messages.php" title="">Errors</a></li>
+            <li><a href="statistics.php" title="">Statistics</a></li>
+            <li><a href="monitoring.php" title="" class="exp">Status</a>
+                <ul>
+                    <li><a href="other_calendar.html">Calendar</a></li>
+
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- Top line ends -->
+
+
+<!-- Sidebar begins -->
+<div id="sidebar">
+        	        <?php include('/var/www/html/includes/mainnav.php'); 
+        	        ?>
+    
+    <!-- Secondary nav -->
+    <div class="secNav">
+        <div class="secWrapper">
+            <div class="secTop">
+                <div class="balance">
+                	<?php 
+                	$trueTime = date("d M y, H:i");
+                	?>                	
+                    <div class="balInfo">Live Clients:<span><?php  echo($trueTime); ?></span></div>
+                    <div class="balAmount"><span>12</span><span class="balBars"><!--5,10,15,20,18,16,14,20,15,16,12,10--></span></div>
+                </div>
+                <a href="#" class="triangle-red"></a>
+            </div>
+            
+            <div class="divider"><span></span></div>
+            
+            <div class="sideChart">
+            <div style='padding:5px;'>
+                    <div class='nav'>Cloudfront:&nbsp;<span></span><br />Cloudfront stats go here, via Cloudfront API ( - not updated in realtime)
+                    	<ul>
+                    		<li>busy regions</li>
+                    		<li>total users</li>
+                    		<li>monthly traffic to date</li>
+                    		<li>etc</li>
+                    	</ul>
+                    </div>
+                    <div><span>5,140</span></div>
+            </div>
+            </div> 
+            
+            <div class="divider"><span></span></div> 
+            
+                      
+    <div id="oldwrapper" style='padding:5px;align:center;'>
+   
+    <div id='timecontent'> &nbsp; <img src="/ajax/loading.gif" id="loading3" alt="loading" /></div>
+    <div class="divider"><span></span></div>
+    <div id="sidecontent" style='padding:5px;'></div></div>
+           
+            
+          
+            
+       </div> 
+   </div>
+</div>
+<!-- Sidebar ends -->
+   
+    
+<!-- Content begins -->
+<div id="content">
+    
+    <!-- Breadcrumbs line -->
+    <div class="breadLine">
+        <div class="bc">
+            <ul id="breadcrumbs" class="breadcrumbs">
+                <li><a href="#">Streaming Dashboard</a></li>
+                <li><a href="#">Cam Control</a>
+                    <ul>
+                        <li><a href="ui.html" title="">General elements</a></li>
+                        <li><a href="ui_icons.html" title="">Icons</a></li>
+                        <li><a href="ui_buttons.html" title="">Button sets</a></li>
+                        <li><a href="ui_custom.html" title="">Custom elements</a></li>
+                    </ul>
+                </li>
+                <li class="current"><a href="/monitoring.php" title="">Monitoring</a></li>
+            </ul>
+        </div>
+    </div>   
+   
+    <!-- Main content -->
+
+          	
+						<div id="wrapper" class='fluid'>
+    				<div id="thumbcontent"><img src="/ajax/loading.gif" id="loading2" alt="loading" style="display:none;" /></div>
+    				<img src="/ajax/loading.gif" id="loading2" alt="loading" style="display:none;" />
+    				
+<!-- // get and cache http://www.earthtools.org/sun/24.1748364/55.7169527/28/11/99/1 // -->
+
+            </div>
+            
+
+						<div id="oldwrapper" class='fluid'></div>
+    				<div id="sqlContent"><img src="/ajax/loading.gif" id="loading2" alt="loading" style="display:none;" /></div>
+    				<br /><br />
+    				
+    				<!--<div id='beaker1'>
+            <ul class="messagesOne">
+                <li class="by_user">
+                    <a href="#" title=""><img src="/images/beaker.jpg" alt="" /></a>
+                    <div class="messageArea">
+                        <span class="aro"></span>
+                        <div class="infoRow">
+                            <span class="name"><strong>Beaker</strong> says:</span>
+                            <span class="time">30 minutes ago</span>
+                        </div>
+                     "Additional tools will be soon be added to this page for diagnosing stream faults and fixing problems"
+                    </div>
+                </li>
+            </ul>    
+						</div>-->
+						
+						<div id='beakercontent'>
+    
+						</div>
+    				
+    				
+    				
+    				
+</div>
+    <!-- Main content ends -->
+    
+
+<!-- Content ends -->
+
+</body>
+</html>

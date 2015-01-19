@@ -1,0 +1,21 @@
+ffmpeg version 0.10.6-6:0.10.6-0ubuntu0jon1~precise1 Copyright (c) 2000-2012 the FFmpeg developers
+  built on Nov 12 2012 13:11:38 with gcc 4.6.3
+  configuration: --arch=amd64 --enable-pthreads --enable-runtime-cpudetect --extra-version='6:0.10.6-0ubuntu0jon1~precise1' --libdir=/usr/lib/x86_64-linux-gnu --disable-stripping --prefix=/usr --enable-bzlib --enable-libdc1394 --enable-libfreetype --enable-frei0r --enable-gnutls --enable-libgsm --enable-libmp3lame --enable-librtmp --enable-libopencv --enable-libopenjpeg --enable-libpulse --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-vaapi --enable-vdpau --enable-libvorbis --enable-libvpx --enable-zlib --enable-gpl --enable-postproc --enable-libcdio --enable-x11grab --enable-libx264 --shlibdir=/usr/lib/x86_64-linux-gnu --enable-shared --disable-static
+  libavutil      51. 35.100 / 51. 35.100
+  libavcodec     53. 61.100 / 53. 61.100
+  libavformat    53. 32.100 / 53. 32.100
+  libavdevice    53.  4.100 / 53.  4.100
+  libavfilter     2. 61.100 /  2. 61.100
+  libswscale      2.  1.100 /  2.  1.100
+  libswresample   0.  6.100 /  0.  6.100
+  libpostproc    52.  0.100 / 52.  0.100
+[mp2 @ 0x9fae00] Header missing
+[mp3 @ 0x9f3ac0] Header missing
+    Last message repeated 216 times
+[mp3 @ 0x9f3ac0] big_values too big
+[mpeg @ 0x9ed680] max_analyze_duration 5000000 reached at 5016000
+Input #0, mpeg, from '/home/otv/citv/calabria.avi':
+  Duration: 00:03:02.71, start: 142.393567, bitrate: 2855 kb/s
+    Stream #0:0[0x1e0]: Audio: mp1, 32000 Hz, stereo, s16, 192 kb/s
+    Stream #0:1[0x1c0]: Audio: mp2, 48000 Hz, stereo, s16, 192 kb/s
+At least one output file must be specified

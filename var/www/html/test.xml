@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="stat.xsl" ?>
+<rtmp>
+<nginx_version>1.2.4</nginx_version>
+<nginx_rtmp_version>1.1.4</nginx_rtmp_version>
+<compiler>gcc 4.4.7 20120313 (Red Hat 4.4.7-4) (GCC) </compiler>
+<built>Apr 28 2014 10:55:57</built>
+<pid>5269</pid>
+<uptime>17558155</uptime>
+<naccepted>255077</naccepted>
+<bw_in>12468520</bw_in>
+<bytes_in>103005006294131</bytes_in>
+<bw_out>10733864</bw_out>
+<bytes_out>977500726172</bytes_out>
+<server>
+<application>
+<name>livecams</name>
+<live>
+<stream>
+<name>aa-port6-monitor</name>
+<time>3161383</time><bw_in>411736</bw_in>
+<bytes_in>147449106</bytes_in>
+<bw_out>0</bw_out>
+<bytes_out>0</bytes_out>
+<bw_audio>24600</bw_audio>
+<bw_video>387136</bw_video>
+<client><id>272466</id><address>94.56.170.196</address><time>3162115</time><flashver>FMLE/3.0 (compatible; FMSc/1.0)</flashver><dropped>0</dropped><avsync>21</avsync><timestamp>3160481</timestamp><publishing/><active/></client>
+<meta><video><width>480</width><height>270</height><frame_rate>25</frame_rate><codec>H264</codec><profile>Baseline</profile><compat>192</compat><level>3.1</level></video><audio><codec>AAC</codec><profile>LC</profile><channels>1</channels><sample_rate>44100</sample_rate></audio></meta>
+<nclients>1</nclients>
+<publishing/>
+<active/>
+</stream>
+<stream>
+<name>aa-port1-monitor</name>
+<time>3167861</time><bw_in>412288</bw_in>
+<bytes_in>148529083</bytes_in>
+<bw_out>0</bw_out>
+<bytes_out>0</bytes_out>
+<bw_audio>24600</bw_audio>
+<bw_video>387688</bw_video>
+<client><id>272462</id><address>94.56.170.196</address><time>3168635</time><flashver>FMLE/3.0 (compatible; FMSc/1.0)</flashver><dropped>0</dropped><avsync>32</avsync><timestamp>3167052</timestamp><publishing/><active/></client>
+<meta><video><width>480</width><height>270</height><frame_rate>25</frame_rate><codec>H264</codec><profile>Baseline</profile><compat>192</compat><level>3.1</level></video><audio><codec>AAC</codec><profile>LC</profile><channels>1</channels><sample_rate>44100</sample_rate></audio></meta>
+<nclients>1</nclients>
+<publishing/>
+<active/>
+</stream>
+<stream>
+<name>aa-port5-monitor</name>
+<time>3162762</time><bw_in>410664</bw_in>
+<bytes_in>148182632</bytes_in>
+<bw_out>0</bw_out>
+<bytes_out>0</bytes_out>
+<bw_audio>24544</bw_audio>
+<bw_video>386120</bw_video>
+<client><id>272464</id><address>94.56.170.196</address><time>3163508</time><flashver>FMLE/3.0 (compatible; FMSc/1.0)</flashver><dropped>0</dropped><avsync>-19</avsync><timestamp>3161940</timestamp><publishing/><active/></client>
+<meta><video><width>480</width><height>270</height><frame_rate>25</frame_rate><codec>H264</codec><profile>Baseline</profile><compat>192</compat><level>3.1</level></video><audio><codec>AAC</codec><profile>LC</profile><channels>1</channels><sample_rate>44100</sample_rate></audio></meta>
+<nclients>1</nclients>
+<publishing/>
+<active/>
+</stream>
+<stream>
+<name>aa-port7-monitor</name>
+<time>3160607</time><bw_in>407032</bw_in>
+<bytes_in>147979592</bytes_in>
+<bw_out>0</bw_out>
+<bytes_out>0</bytes_out>
+<bw_audio>24608</bw_audio>
+<bw_video>382416</bw_video>
+<client><id>272468</id><address>94.56.170.196</address><time>3161372</time><flashver>FMLE/3.0 (compatible; FMSc/1.0)</flashver><dropped>0</dropped><avsync>21</avsync><timestamp>3159761</timestamp><publishing/><active/></client>
+<meta><video><width>480</width><height>270</height><frame_rate>25</frame_rate><codec>H264</codec><profile>Baseline</profile><compat>192</compat><level>3.1</level></video><audio><codec>AAC</codec><profile>LC</profile><channels>1</channels><sample_rate>44100</sample_rate></audio></meta>
+<nclients>1</nclients>
+<publishing/>
+<active/>
+</stream>
+<stream>
+<name>aa-port1</name>
+<time>9143117</time><bw_in>2668360</bw_in>
+<bytes_in>2781775144</bytes_in>
+<bw_out>2668360</bw_out>
+<bytes_out>3699101138</bytes_out>
+<bw_audio>50960</bw_audio>
+<bw_video>2617400</bw_video>
+<client><id>272474</id><address>54.76.137.9</address><time>3136622</time><flashver>LNX 9,0,124,2</flashver><dropped>0</dropped><avsync>28</avsync><timestamp>19942424</timestamp><active/></client>
+<client><id>272461</id><address>94.56.170.196</address><time>3168806</time><flashver>FMLE/3.0 (compatible; FMSc/1.0)</flashver><dropped>0</dropped><avsync>28</avsync><timestamp>19942424</timestamp><publishing/><active/></client>
+<meta><video><width>1920</width><height>1080</height><frame_rate>25</frame_rate><codec>H264</codec><profile>Main</profile><compat>64</compat><level>4.0</level></video><audio><codec>AAC</codec><profile>LC</profile><channels>1</channels><sample_rate>44100</sample_rate></audio></meta>
+<nclients>2</nclients>
+<publishing/>
+<active/>
+</stream>
+<stream>
+<name>aa-port5</name>
+<time>19205945</time><bw_in>2726704</bw_in>
+<bytes_in>5861221956</bytes_in>
+<bw_out>2726704</bw_out>
+<bytes_out>5102862264</bytes_out>
+<bw_audio>50952</bw_audio>
+<bw_video>2675752</bw_video>
+<client><id>272499</id><address>54.76.137.9</address><time>1264907</time><flashver>LNX 9,0,124,2</flashver><dropped>0</dropped><avsync>39</avsync><timestamp>19937315</timestamp><active/></client>
+<client><id>272463</id><address>94.56.170.196</address><time>3163620</time><flashver>FMLE/3.0 (compatible; FMSc/1.0)</flashver><dropped>0</dropped><avsync>39</avsync><timestamp>19937315</timestamp><publishing/><active/></client>
+<meta><video><width>1920</width><height>1080</height><frame_rate>25</frame_rate><codec>H264</codec><profile>Main</profile><compat>64</compat><level>4.0</level></video><audio><codec>AAC</codec><profile>LC</profile><channels>1</channels><sample_rate>44100</sample_rate></audio></meta>
+<nclients>2</nclients>
+<publishing/>
+<active/>
+</stream>
+<stream>
+<name>aa-port6</name>
+<time>3181361</time><bw_in>2662232</bw_in>
+<bytes_in>966872311</bytes_in>
+<bw_out>2662232</bw_out>
+<bytes_out>960775249</bytes_out>
+<bw_audio>50952</bw_audio>
+<bw_video>2611280</bw_video>
+<client><id>272477</id><address>54.76.137.9</address><time>2794568</time><flashver>LNX 9,0,124,2</flashver><dropped>8</dropped><avsync>16</avsync><timestamp>3158716</timestamp><active/></client>
+<client><id>272465</id><address>94.56.170.196</address><time>3162249</time><flashver>FMLE/3.0 (compatible; FMSc/1.0)</flashver><dropped>0</dropped><avsync>16</avsync><timestamp>3158716</timestamp><publishing/><active/></client>
+<meta><video><width>1920</width><height>1080</height><frame_rate>25</frame_rate><codec>H264</codec><profile>Main</profile><compat>64</compat><level>4.0</level></video><audio><codec>AAC</codec><profile>LC</profile><channels>1</channels><sample_rate>44100</sample_rate></audio></meta>
+<nclients>2</nclients>
+<publishing/>
+<active/>
+</stream>
+<stream>
+<name>aa-port7</name>
+<time>3176054</time><bw_in>2670272</bw_in>
+<bytes_in>964794589</bytes_in>
+<bw_out>2670272</bw_out>
+<bytes_out>964666275</bytes_out>
+<bw_audio>50944</bw_audio>
+<bw_video>2619320</bw_video>
+<client><id>272472</id><address>54.76.137.9</address><time>3151526</time><flashver>LNX 9,0,124,2</flashver><dropped>0</dropped><avsync>17</avsync><timestamp>3157957</timestamp><active/></client>
+<client><id>272467</id><address>94.56.170.196</address><time>3161508</time><flashver>FMLE/3.0 (compatible; FMSc/1.0)</flashver><dropped>0</dropped><avsync>17</avsync><timestamp>3157957</timestamp><publishing/><active/></client>
+<meta><video><width>1920</width><height>1080</height><frame_rate>25</frame_rate><codec>H264</codec><profile>Main</profile><compat>64</compat><level>4.0</level></video><audio><codec>AAC</codec><profile>LC</profile><channels>1</channels><sample_rate>44100</sample_rate></audio></meta>
+<nclients>2</nclients>
+<publishing/>
+<active/>
+</stream>
+<nclients>12</nclients>
+</live>
+</application>
+</server>
+</rtmp>

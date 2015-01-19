@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en"
+	xmlns="http://www.w3.org/2006/04/ttaf1"
+	xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+	<head>
+		<styling>
+			<style id="default"
+				   tts:fontSize="22px"
+				   tts:fontWeight="bold"
+				   tts:color="0xFFFFFF"
+				   tts:textAlign="center"
+				   tts:fontFamily="Arial" />
+			<style id="red"
+				   tts:fontSize="22px"
+				   tts:fontStyle="italic"
+				   tts:color="0xFF0000"
+				   tts:textAlign="left"
+				   tts:fontFamily="Arial" />
+			<style id="yellow"
+				   tts:fontSize="22px"
+				   tts:fontStyle="italic"
+				   tts:color="0xFFFF00"
+				   tts:textAlign="right"
+				   tts:fontFamily="Arial" />
+		</styling>
+	</head>
+	<body>
+		<div>
+			<p begin="00:00:00"
+			   end="00:00:04"
+			   style="default">dddMontes sagittis nec elit auctor mauris.</p>
+			<p begin="00:00:05"
+			   end="00:00:07"
+			   style="red">Placerat ut pulvinar? <br />
+				<span>Dis et enim hac enim arcu, velit! </span>
+			</p>
+			<p begin="00:00:07"
+			   end="00:00:09"
+			   style="yellow">Cras integer? Montes? Odio, augue! <br />
+				<span>Phasellus porta ac, porttitor in egestas placerat nunc sed.</span>,</p>
+			<p begin="00:00:10"
+			   end="00:00:14"
+			   style="default">Montes sagittis nec elit auctor mauris.</p>
+			<p begin="00:00:15"
+			   end="00:00:19"
+			   style="red">Placerat ut pulvinar? <br />
+				<span>Dis et enim hac enim arcu, velit! </span>
+			</p>
+			<p begin="00:00:17"
+			   end="00:00:19"
+			   style="yellow">Cras integer? Montes? Odio, augue! <br />
+				<span>Phasellus porta ac, porttitor in egestas placerat nunc sed.</span>,</p>
+			<p begin="00:00:20"
+			   end="00:00:24"
+			   style="default">Montes sagittis nec elit auctor mauris.</p>
+			<p begin="00:00:25"
+			   end="00:00:29"
+			   style="red">Placerat ut pulvinar? <br />
+				<span>Dis et enim hac enim arcu, velit! </span>
+			</p>
+			<p begin="00:00:27"
+			   end="00:00:31"
+			   style="yellow">Cras integer? Montes? Odio, augue! <br />
+				<span>Phasellus porta ac, porttitor in egestas placerat nunc sed.</span>,</p>
+		</div>
+	</body>
+</tt>

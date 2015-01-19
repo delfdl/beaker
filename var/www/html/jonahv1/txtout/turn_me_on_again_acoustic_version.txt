@@ -1,0 +1,43 @@
+ffmpeg version 0.10.6-6:0.10.6-0ubuntu0jon1~precise1 Copyright (c) 2000-2012 the FFmpeg developers
+  built on Nov 12 2012 13:11:38 with gcc 4.6.3
+  configuration: --arch=amd64 --enable-pthreads --enable-runtime-cpudetect --extra-version='6:0.10.6-0ubuntu0jon1~precise1' --libdir=/usr/lib/x86_64-linux-gnu --disable-stripping --prefix=/usr --enable-bzlib --enable-libdc1394 --enable-libfreetype --enable-frei0r --enable-gnutls --enable-libgsm --enable-libmp3lame --enable-librtmp --enable-libopencv --enable-libopenjpeg --enable-libpulse --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-vaapi --enable-vdpau --enable-libvorbis --enable-libvpx --enable-zlib --enable-gpl --enable-postproc --enable-libcdio --enable-x11grab --enable-libx264 --shlibdir=/usr/lib/x86_64-linux-gnu --enable-shared --disable-static
+  libavutil      51. 35.100 / 51. 35.100
+  libavcodec     53. 61.100 / 53. 61.100
+  libavformat    53. 32.100 / 53. 32.100
+  libavdevice    53.  4.100 / 53.  4.100
+  libavfilter     2. 61.100 /  2. 61.100
+  libswscale      2.  1.100 /  2.  1.100
+  libswresample   0.  6.100 /  0.  6.100
+  libpostproc    52.  0.100 / 52.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/dometv//mtv/Turn Me On Again Acoustic Version.m4v':
+  Metadata:
+    major_brand     : M4V 
+    minor_version   : 0
+    compatible_brands: M4V mp42isom
+    creation_time   : 2011-05-05 13:26:09
+    title           : Turn Me On Again (Acoustic Version)
+    artist          : Nerina Pallot
+    album_artist    : Nerina Pallot
+    album           : Year of the Wolf (Deluxe Version)
+    genre           : Pop
+    track           : 16
+    comment         : (Acoustic Version)
+    gapless_playback: 0
+    date            : 2003-04-28T07:00:00Z
+    copyright       : ℗ 2011 Polydor Ltd t/a Geffen Records UK
+    media_type      : 6
+  Duration: 00:04:14.28, start: 0.000000, bitrate: 1754 kb/s
+    Stream #0:0(eng): Audio: aac (mp4a / 0x6134706D), 44100 Hz, stereo, s16, 246 kb/s
+    Metadata:
+      creation_time   : 2011-05-05 13:30:13
+      handler_name    : 
+    Stream #0:1(eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p, 640x320, 1469 kb/s, 25 fps, 25 tbr, 2500 tbn, 5k tbc
+    Metadata:
+      creation_time   : 2011-05-05 13:30:13
+      handler_name    : 
+    Stream #0:2(eng): Data: none (tmcd / 0x64636D74)
+    Metadata:
+      creation_time   : 2011-05-05 13:30:17
+      handler_name    : 
+      timecode        : 00:00:00:00
+At least one output file must be specified

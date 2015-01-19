@@ -1,0 +1,27 @@
+<!doctype html> 
+<html>
+<head>
+        <script src="/jwplayer.js"></script>
+        <!--<script>jwplayer.key = "aJex+xhaILfSNkUUabcsd8ZiUlObxN8Cc/meoQ==";</script>-->
+        <script>jwplayer.key="zYUzlLKZYyvvBzT13IPX1XDX5rCXrr4QzOkjBTtSdJA=";</script>
+        
+</head>
+<body>
+<br /><br />
+Latency test: sub 1s NGINX<br />
+<div id="fdlElement" style='border:1px solid silver'> Loading the player... </div>
+<br /><br />
+<script type="text/javascript">
+	jwplayer("fdlElement").setup({
+    file: "rtmp://rtmp-qa1.projectapollo2.com:8935/livecams/monitor",
+    image: "/fdl/fdl.jpg",
+    height: 270,
+    width: 480,
+    rtmp: {
+    bufferlength: 0.01
+    }
+	});
+</script>
+	
+</body>
+</html>

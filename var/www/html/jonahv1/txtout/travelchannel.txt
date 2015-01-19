@@ -1,0 +1,58 @@
+ffmpeg version 0.10.4-6:0.10.4-0ubuntu0jon2 Copyright (c) 2000-2012 the FFmpeg developers
+  built on Jun 12 2012 23:02:05 with gcc 4.6.3
+  configuration: --extra-version='6:0.10.4-0ubuntu0jon2' --arch=amd64 --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu --disable-stripping --enable-vaapi --enable-vdpau --enable-bzlib --enable-gnutls --enable-libgsm --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-libvorbis --enable-pthreads --enable-zlib --enable-libvpx --enable-runtime-cpudetect --enable-libfreetype --enable-libpulse --enable-vaapi --enable-librtmp --enable-gpl --enable-postproc --enable-x11grab --enable-libcdio --enable-version3 --enable-libdc1394 --shlibdir=/usr/lib/x86_64-linux-gnu --enable-shared --disable-static
+  avutil      configuration: --extra-version='6:0.10.4.0ubuntu0jon2.2' --arch=amd64 --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu --disable-stripping --enable-vaapi --enable-vdpau --enable-bzlib --enable-gnutls --enable-libgsm --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-libvorbis --enable-pthreads --enable-zlib --enable-libvpx --enable-runtime-cpudetect --enable-libfreetype --enable-libpulse --enable-vaapi --enable-libopenjpeg --enable-libmp3lame --enable-librtmp --enable-frei0r --enable-libopencv --enable-gpl --enable-postproc --enable-x11grab --enable-libcdio --enable-libx264 --enable-version3 --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-libdc1394 --shlibdir=/usr/lib/x86_64-linux-gnu --enable-shared --disable-static
+  avcodec     configuration: --extra-version='6:0.10.4.0ubuntu0jon2.2' --arch=amd64 --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu --disable-stripping --enable-vaapi --enable-vdpau --enable-bzlib --enable-gnutls --enable-libgsm --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-libvorbis --enable-pthreads --enable-zlib --enable-libvpx --enable-runtime-cpudetect --enable-libfreetype --enable-libpulse --enable-vaapi --enable-libopenjpeg --enable-libmp3lame --enable-librtmp --enable-frei0r --enable-libopencv --enable-gpl --enable-postproc --enable-x11grab --enable-libcdio --enable-libx264 --enable-version3 --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-libdc1394 --shlibdir=/usr/lib/x86_64-linux-gnu --enable-shared --disable-static
+  libavutil      51. 35.100 / 51. 35.100
+  libavcodec     53. 61.100 / 53. 61.100
+  libavformat    53. 32.100 / 53. 32.100
+  libavdevice    53.  4.100 / 53.  4.100
+  libavfilter     2. 61.100 /  2. 61.100
+  libswscale      2.  1.100 /  2.  1.100
+  libswresample   0.  6.100 /  0.  6.100
+  libpostproc    52.  0.100 / 52.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/zebedee/Travelchannel.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    creation_time   : 2012-08-28 17:00:06
+  Duration: 00:00:30.04, start: 0.000000, bitrate: 59316 kb/s
+    Stream #0:0(eng): Video: mpeg2video (4:2:2) (mx5p / 0x7035786D), yuv422p, 720x608 [SAR 152:135 DAR 4:3], 50000 kb/s, SAR 59:54 DAR 295:228, 25 fps, 25 tbr, 25 tbn, 50 tbc
+    Metadata:
+      creation_time   : 2012-08-28 17:00:06
+      handler_name    : ?Apple Alias Data Handler
+    Stream #0:1(eng): Audio: pcm_s24le (in24 / 0x34326E69), 48000 Hz, 2 channels, s32, 2304 kb/s
+    Metadata:
+      creation_time   : 2012-08-28 17:00:06
+      handler_name    : ?Apple Alias Data Handler
+    Stream #0:2(eng): Audio: pcm_s24le (in24 / 0x34326E69), 48000 Hz, 1 channels, s32, 1152 kb/s
+    Metadata:
+      creation_time   : 2012-08-28 17:00:06
+      handler_name    : ?Apple Alias Data Handler
+    Stream #0:3(eng): Audio: pcm_s24le (in24 / 0x34326E69), 48000 Hz, 1 channels, s32, 1152 kb/s
+    Metadata:
+      creation_time   : 2012-08-28 17:00:06
+      handler_name    : ?Apple Alias Data Handler
+    Stream #0:4(eng): Audio: pcm_s24le (in24 / 0x34326E69), 48000 Hz, 1 channels, s32, 1152 kb/s
+    Metadata:
+      creation_time   : 2012-08-28 17:00:06
+      handler_name    : ?Apple Alias Data Handler
+    Stream #0:5(eng): Audio: pcm_s24le (in24 / 0x34326E69), 48000 Hz, 1 channels, s32, 1152 kb/s
+    Metadata:
+      creation_time   : 2012-08-28 17:00:06
+      handler_name    : ?Apple Alias Data Handler
+    Stream #0:6(eng): Audio: pcm_s24le (in24 / 0x34326E69), 48000 Hz, 1 channels, s32, 1152 kb/s
+    Metadata:
+      creation_time   : 2012-08-28 17:00:06
+      handler_name    : ?Apple Alias Data Handler
+    Stream #0:7(eng): Audio: pcm_s24le (in24 / 0x34326E69), 48000 Hz, 1 channels, s32, 1152 kb/s
+    Metadata:
+      creation_time   : 2012-08-28 17:00:06
+      handler_name    : ?Apple Alias Data Handler
+    Stream #0:8(eng): Data: none (tmcd / 0x64636D74)
+    Metadata:
+      creation_time   : 2012-08-28 17:01:57
+      handler_name    : ?Apple Alias Data Handler
+      timecode        : 10:00:00:00
+At least one output file must be specified

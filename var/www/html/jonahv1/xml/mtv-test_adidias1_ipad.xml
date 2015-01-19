@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<vodingest>
+  <vod id="33">
+  <filename>test_adidas_ipad</filename>
+  <title>Adidas Trailer</title>
+  <supplier>Adidas</supplier>
+  <series>tvp ident</series>
+  <description>iPad compatible trailer for adidas product</description>
+  <region>
+    <uk>
+      <rights_broadband>1</rights_broadband>
+      <rights_mobile>1</rights_mobile>
+      <rights_connectedtv>0</rights_connectedtv>
+      <rights_wifi>1</rights_wifi>
+      <rights_3g>1</rights_3g>
+    </uk>
+  </region>
+  <publish_date>2012-09-01:1400</publish_date>
+  <revoke_date>2012-12-28:2300</revoke_date>
+  </vod>
+</vodingest>

@@ -1,0 +1,2 @@
+<div class='menubar' vertical-align='middle' style='display:block; vertical-align:middle; padding:5px;'><img src='/jonahv1/images/transparent.gif' height='50' width='1' /><span style='float:right;padding:5px;'><b>Automate</b> | Manual &nbsp;</span>&nbsp; <b>Jonah&trade; Ingest Engine v1.0&nbsp;</b>
+</div>
